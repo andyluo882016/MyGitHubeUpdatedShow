@@ -21,7 +21,7 @@ public class HomeController {
 	@GetMapping(path="/updated/{name}")
 	public String domore(@Validated @PathVariable("name") final String name) {
 		
-		return name+"<h1>Welcome to Web Page </h1>";
+		return name+"<h1>Welcome to Web Page new change here!!</h1>";
 	}
 	
 	@GetMapping(path="/alls/{id}/{name}/{email}", produces= MediaType.APPLICATION_JSON_VALUE )
